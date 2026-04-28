@@ -12,7 +12,7 @@ Built as a production-grade reference implementation for AI engineering in regul
 
 *Multi-agent pipeline analysing KRAS G12C inhibitor trials — executive summary with confidence-flagged findings*
 
-<img src="docs/ingest.png" width="500" alt="Data ingestion"/>
+<img src="docs/ingest.png" width="250" alt="Data ingestion"/>
 
 *Ingesting documents from PubMed and ClinicalTrials.gov — idempotent, deduplication built in*
 
