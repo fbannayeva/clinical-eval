@@ -183,12 +183,13 @@ pytest tests/ -v --cov=src
 
 ---
 
-### Observability
+## Observability
 
 LLM traces are sent to [Langfuse](https://langfuse.com) (free tier). Add `LANGFUSE_PUBLIC_KEY` and `LANGFUSE_SECRET_KEY` to `.env` to enable.
 
 Each trace captures: agent name · model · input/output tokens · latency · confidence score per extraction.
 
+![Langfuse traces](docs/langfuse.png)
 ---
 
 ### Production considerations
