@@ -69,7 +69,7 @@ Stack: Python 3.11 · FastAPI · Pydantic v2 · Anthropic Claude · HuggingFace 
 
 ### Quickstart
 
-**Prerequisites:** Python 3.11+, Anthropic API key, Qdrant Cloud account (free tier)
+**Prerequisites:** Python 3.11+, Anthropic API key, Qdrant Cloud account 
 
 **1. Clone and configure**
 
@@ -185,11 +185,12 @@ pytest tests/ -v --cov=src
 
 ## Observability
 
-LLM traces are sent to [Langfuse](https://langfuse.com) (free tier). Add `LANGFUSE_PUBLIC_KEY` and `LANGFUSE_SECRET_KEY` to `.env` to enable.
+LLM traces are sent to [Langfuse](https://langfuse.com). Add `LANGFUSE_PUBLIC_KEY` and `LANGFUSE_SECRET_KEY` to `.env` to enable.
 
 Each trace captures: agent name · model · input/output tokens · latency · confidence score per extraction.
 
 ![Langfuse traces](docs/langfuse.png)
+
 ---
 
 ### Production considerations
